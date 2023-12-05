@@ -21,7 +21,7 @@ public class CreateListObject {
 		List<String> aList8 = Arrays.asList("안녕","방가");
 		aList7.set(1,7);
 		aList8.set(0,"감사");
-		aList7.remove(0);
+//		aList7.remove(0); asList는 배열이랑 비슷한 구조 추가 제거는 불가능 변경은 가능
 		
 		System.out.println(aList7);
 		System.out.println(aList8);
